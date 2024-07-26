@@ -1,9 +1,12 @@
+import Navbar from "@/components/Navbar/Navbar";
 import {
   ResizablePanelGroup,
   ResizablePanel,
   ResizableHandle,
 } from "@/components/ui/resizable";
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export default function Home() {
   return (
@@ -13,12 +16,12 @@ export default function Home() {
           direction="horizontal"
           className="max-w-screen rounded-lg border"
         >
-          <ResizableHandle />
           <ResizablePanel defaultSize={50}>
             <ResizablePanelGroup direction="vertical">
               <ResizablePanel defaultSize={10}>
                 <div className="flex h-full items-center justify-center p-6">
-                  <span className="font-semibold">Two</span>
+              
+                  <Navbar />
                 </div>
               </ResizablePanel>
               <ResizableHandle />
