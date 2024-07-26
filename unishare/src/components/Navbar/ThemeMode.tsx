@@ -11,7 +11,7 @@ const ThemeMode = () => {
     <div>
       <Button
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        variant="outline"
+        variant="ghost"
       >
         {theme === "dark" ? <SunIcon /> : <MoonIcon />}
       </Button>

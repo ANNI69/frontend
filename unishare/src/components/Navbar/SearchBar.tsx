@@ -2,10 +2,10 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div>
-      <div className="relative mx-auto text-gray-600">
+    <div className=" ps-20 flex items-center justify-between w-full">
+      <div className="relative text-gray-600">
         <input
-          className="border-2 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none w-90 light:bg-white dark:bg-black dark:border-gray-800 dark:text-white"
+          className="rounded-full w-[600px] border-2 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none light:bg-white dark:bg-black dark:border-gray-800 dark:text-white"
           type="search"
           name="search"
           placeholder="Search"
@@ -20,7 +20,7 @@ const SearchBar = () => {
             x="0px"
             y="0px"
             viewBox="0 0 56.966 56.966"
-            style={{ }}
+            style={{}}
             xmlSpace="preserve"
             width="512px"
             height="512px"
