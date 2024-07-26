@@ -20,7 +20,6 @@ export default function Home() {
             <ResizablePanelGroup direction="vertical">
               <ResizablePanel defaultSize={10}>
                 <div className="flex h-full items-center justify-center p-6">
-              
                   <Navbar />
                 </div>
               </ResizablePanel>
