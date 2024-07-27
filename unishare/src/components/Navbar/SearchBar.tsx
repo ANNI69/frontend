@@ -3,9 +3,9 @@ import React from "react";
 const SearchBar = () => {
   return (
     <div className=" ps-20 flex items-center justify-between w-full">
-      <div className="relative text-gray-600">
+      <div className=" relative text-gray-600">
         <input
-          className="rounded-full w-[600px] border-2 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none light:bg-white dark:bg-black dark:border-gray-800 dark:text-white"
+          className="w-[600px] border-2 h-10 px-5 pr-16 rounded-full text-sm focus:outline-none light:bg-white dark:bg-black dark:border-gray-800 dark:text-white"
           type="search"
           name="search"
           placeholder="Search"
